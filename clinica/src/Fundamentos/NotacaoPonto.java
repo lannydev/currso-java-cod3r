@@ -16,9 +16,27 @@ public class NotacaoPonto {
                 .replace("X", "Gui")
                 .toLowerCase() // converte todas as letras em minusculas
                         .concat("!!!");
-        System.out.println(y);  // outra forma de notação ponto.
+        System.out.println(y + "\n\n" +
+                "");  // outra forma de notação ponto.
 
         //OBS: TIPOS PRIMITIVOS NÃO TEM O OPERADOR "."
+
+
+        var nome = "Pedro";
+        var sobrenome = "Cruz";
+        var idade = 33;
+        var salario = 12345.987;
+
+        System.out.println("Nome: " + nome + "\nSobrenome: "
+                + sobrenome + "\nIdade: " + idade +
+                "\nSalario: " + salario + "\n\n"); // n pula linha
+
+        System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f.", nome, sobrenome, idade, salario);
+        // %s substitui string
+        //%d substitui numeros inteiros
+        // %f substitui decimais
+        // %.2f Substitui com duas casas decimais.
+
     }
 
 }
