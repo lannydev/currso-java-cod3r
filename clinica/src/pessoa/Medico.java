@@ -1,4 +1,4 @@
 package pessoa;
 
-public class Medico {
+public class Medico extends Pessoa{
 }
