@@ -1,4 +1,4 @@
-package orientacaoObjetos.classeEMetodo;
+package orientacaoAObjetos.classeEObjetos;
 
 public class ProdutoTeste {
 
@@ -9,7 +9,7 @@ public class ProdutoTeste {
         produto1.preco = 4356.89;
         produto1.desconto = 0.25;
 
-        Produto p2 = new Produto();
+        var p2 = new Produto();
         p2.nome = "Smartphone";
         p2.preco = 2999.99;
         p2.desconto = 0.5;

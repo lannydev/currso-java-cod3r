@@ -1,4 +1,4 @@
-package orientacaoObjetos.classeEMetodo;
+package orientacaoAObjetos.classeEObjetos;
 
 public class Produto {
 
