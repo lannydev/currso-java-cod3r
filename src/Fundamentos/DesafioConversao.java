@@ -8,13 +8,13 @@ public class DesafioConversao {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe o primeiro salário");
-        String valor1 = sc.next().replace(",", ".");
+        String valor1 = sc.next().replace(",", "");
 
         System.out.println("Informe o segundo salário");
-        String valor2 = sc.next().replace(",", ".");
+        String valor2 = sc.next().replace(",", "");
 
         System.out.println("informe o terceiro salário");
-        String valor3 = sc.next().replace(",", ".");
+        String valor3 = sc.next().replace(",", "");
 
         double salario1 = Double.parseDouble(valor1);
         double salario2 = Double.parseDouble(valor2);
